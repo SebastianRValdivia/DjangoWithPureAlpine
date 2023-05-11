@@ -4,5 +4,10 @@
 {% block title %}Home page{% endblock title %}
 
 {% block content %}
-Home
+<div x-data="{ title: 'Home' }">
+  <h1 x-text="title"></h1>
+</div>
 {% endblock %}
+
+
+
